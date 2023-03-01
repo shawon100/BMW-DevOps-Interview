@@ -1,0 +1,42 @@
+name: important-project
+teams:
+- members:
+  - mail: bernd.knutter@bmw.de
+    role: maintainer
+  name: test
+- members:
+  - mail: theo.tingel@bmw.de
+    role: maintainer
+  name: parent-test
+- members: []
+  name: empty
+- members:
+  - mail: bernd.knutter@bmw.de
+    role: member
+  name: grandchild-test
+- members:
+  - mail: theo.tingel@bmw.de
+    role: maintainer
+  - mail: bernd.knutter@bmw.de
+    role: member
+  - mail: otto.goretzki@bmw.de
+    role: maintainer
+  - mail: tonja.busch@bmw.de
+    role: maintainer
+  - mail: soeren.werker@bmw.de
+    role: member
+  - mail: helmut.ganz@bmw.de
+    role: maintainer
+  name: admins
+- members:
+  - mail: friedel.x.bunker@bmw.de
+    role: maintainer
+  - mail: pending.user@bmwgroup.invalid
+    role: member
+  name: members
+- members:
+  - mail: tonja.busch@bmwx.de
+    role: maintainer
+  - mail: tonja.busch@bmwx.de
+    role: maintainer
+  name: child-test
